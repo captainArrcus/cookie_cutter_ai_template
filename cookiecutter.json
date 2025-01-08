@@ -1,0 +1,10 @@
+{
+    "project_name": "my_ai_project",
+    "repo_name": "{{ cookiecutter.project_name|lower|replace(' ', '_') }}",
+    "author_name": "Your Name",
+    "description": "A short description of your AI project.",
+    "python_version": "3.12",
+    "create_conda_env": "y",
+    "create_github_repo": "y"
+
+}

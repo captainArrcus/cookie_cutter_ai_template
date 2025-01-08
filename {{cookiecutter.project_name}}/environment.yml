@@ -1,0 +1,7 @@
+name: {{ cookiecutter.project_name }}
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python={{ cookiecutter.python_version }}
+  - jupyterlab
